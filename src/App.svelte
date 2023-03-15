@@ -1,9 +1,11 @@
 <script>
   const name = "Adithyan";
+  const htmlCode = " <p>Hey here is your html</p>";
 </script>
 
 <main>
-  <h1>Hello {name}!</h1>
+  <h1>Helloeeee {name}!</h1>
+  <div>{@html htmlCode}</div>
 </main>
 
 <style>
